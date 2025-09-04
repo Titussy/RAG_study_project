@@ -1,0 +1,26 @@
+# Python-related
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.ipynb_checkpoints/
+
+# Environment and credentials
+.venv-torch/
+*.key
+*.pem
+
+# Large project files
+human-nutrition-text.pdf
+text_chunks_embeddings_df.csv
+
+# Vector database
+nutrition_db/
+
+# System-specific
+.DS_Store
+Thumbs.db
+
+# Optional: Ignore Jupyter notebooks if outputs are large
+# *.ipynb
